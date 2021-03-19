@@ -1,0 +1,83 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #bbd4ce;
+}
+
+h1 {
+  font-style: italic;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 100px;
+}
+#aboutme{
+  text-align: left;
+  font-size: 10px;
+}
+
+h2 {
+  color: #3e4491;
+}
+
+h3{
+  color:#3e4491;
+}
+
+img {
+  width:200px;
+  height:200px;
+}
+
+#mypic{
+  border-radius: 50%;
+}
+
+
+#coll{
+  background-color: #e3f6f5;
+}
+
+#colr{
+  background-color:#bae8e8;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #bbd4ce;
+  padding: 20px;
+}
+.grid-item {
+  background-color: #bbd4ce ;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+}  
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 240px;
+}
+
+.left {
+  width: 25%;
+  text-align: center;
+  float: center;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
